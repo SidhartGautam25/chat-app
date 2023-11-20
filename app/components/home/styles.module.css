@@ -1,0 +1,114 @@
+.home{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+.left{
+    flex: 3;
+    min-height: 90vh;
+    background-color: #ffffff;
+    border-right: 1px solid rgb(218, 217, 217);
+
+}
+.right{
+    flex: 9;
+    min-height: 90vh;
+    background-color: #ffffff;
+    border-right: 1px solid rgb(218, 217, 217);
+}
+.leftnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    /* box-shadow: rgba(33, 35, 38, 0.29) 0px 10px 10px -10px; */
+    background-color: #fff;
+}
+.leftspan{
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    margin-left: 20px;
+    background: -webkit-linear-gradient(rgb(10, 244, 209), #3388e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.logoItems{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.input{
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 8px;
+    height: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    border: 1px  solid rgb(232, 232, 232);
+    border-bottom:3px  solid rgb(65, 243, 198) ;
+    border-radius:5px ;
+    padding: 8px;
+    
+}
+.input:focus{
+    outline: none;
+}
+.peoples{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.people{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.people:hover{
+    background-color: #dbdbdb;
+}
+.profile{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 0px 0 0 20px;
+}
+.name{
+    /* font-style: italic; */
+    font-family: 'Lora', serif;
+    margin-left:15px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.video{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.audio{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.rightnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: rgba(33, 35, 38, 0.29) 0px 10px 10px -10px;
+    background-color: #fff;
+}
+.right_people{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 6px;
+}
